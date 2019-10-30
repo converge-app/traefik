@@ -20,7 +20,7 @@ acme:
   staging: false
   challengeType: "dns-01"
   persistence:
-    enabled: false
+    enabled: true
   dnsProvider:
     name: gcloud
     gcloud:
